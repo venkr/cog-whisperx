@@ -1,1 +1,2 @@
-Cog implementation of whisperX, a library that adds batch processing on top of whisper (and also faster-whisper), leading to very fast audio transcription. 
+A Replicate implementation of WhisperX, forked from [daanelson/whisperx](https://replicate.com/daanelson/whisperx), with two changes: this uses the latest version of WhisperX, as of Oct 16 and it adds a flag to allow use of diarization via Pyannote 3.0
+
