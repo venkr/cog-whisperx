@@ -4,7 +4,7 @@
 build:
   # set to true if your model requires a GPU
   gpu: true
-  cuda: "11.8"
+  cuda: "11.7"
 
   system_packages:
     - "ffmpeg"
@@ -16,7 +16,7 @@ build:
   python_packages:
     - "torch==2.0"
     - "torchaudio==2.0.0"
-    - "git+https://github.com/m-bain/whisperX.git@befe2b242eb59dcd7a8a122d127614d5c63d36e9"
+    - "git+https://github.com/m-bain/whisperX.git@f8cc46c6f7fa3b8509bc6aa04cdf4a62a702bb42"
 
   run: 
     - "pip install ipython"
